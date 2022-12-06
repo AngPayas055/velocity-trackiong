@@ -1,0 +1,76 @@
+.container{
+    max-width: 800px;
+    width: 100%;
+    border: 5px solid #f7f7f9;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    margin-top: 80px;
+}
+.first-row{
+    display: flex;
+    justify-content: space-between;
+}
+.ed-container{
+    display: flex;
+    justify-content: space-between;
+}
+.bts-cont{
+    /* background-color: blue; */
+    width: 200px;
+    margin-left: auto;
+    margin-top: 40px;
+}
+.first-group label{
+    display: block;
+    min-width: 120px;
+    /* background-color: aqua; */
+}
+.group{
+    display: flex;
+    align-items: center
+}
+.close{
+    padding: 10px 15px;
+    background-color:#1d2124;
+    color: #fff;
+    border: none;
+    margin: 0 10px;
+}
+.save{
+    padding: 10px 15px;
+    background-color:#01b6f3;
+    color: #fff;
+    border: none;
+    margin: 0 10px;
+}
+.btn-action{
+    padding: 0 5px;
+}
+
+/*Enhancements*/
+h4{
+    background-color: #f7f7f9;
+    margin: 0 0 0 20px;
+}
+.title{
+    width: calc(100% + 40px);
+    background-color: #f7f7f9;
+    margin-left: -20px;
+    padding: 10px 0;
+}
+.light-blue{color: #00bdf6;}
+.first-row, .task-escription, .estimate{
+    width: 80%;
+    margin-left: auto;
+}
+.task-escription{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+textarea{
+    width: calc(100% - 120px)
+}
+input, select, textarea{
+    border: 3px solid #f7f7f9;
+    padding: 5px;
+}
